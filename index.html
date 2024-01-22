@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="audio" src="audioalarm.wav"></audio>
+    <div class="main">
+        <div id="container" class="container">
+            <div class="stopwatch">
+                <div class="days">
+                    <span>MON</span>
+                    <span>TUE</span>
+                    <span>WED</span>
+                    <span>THU</span>
+                    <span>FRD</span>
+                    <span>SAT</span>
+                    <span>SUN</span>
+                </div>
+                <div id="clock" class="clock">
+                    <p id="alarm">🕙</p>
+                    <p id="time"></p>
+                    <p id="tens"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="control.js"></script>
+</body>
+
+</html>
